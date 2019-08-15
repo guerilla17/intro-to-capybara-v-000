@@ -1,10 +1,10 @@
 class Application < Sinatra::Base
   # Write your code here!
-  get '/index' do
+  GET '/' do
     erb :index
   end
   
-  get '/greet' do
+  POST '/greet' do
     erb :greet
   end
 
